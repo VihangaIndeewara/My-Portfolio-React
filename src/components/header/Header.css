@@ -1,0 +1,33 @@
+#mainNav{
+    position:"fixed";
+    width:"100vw";
+    height:"200px";
+    background-color:#242734;
+    box-shadow: 3px 4px 8px 2px #444645;
+}
+#topic{
+    position: relative;
+    left: 60px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+#navList{
+   right: 300px;
+   position: absolute;
+   width: 400px;
+   
+}
+
+.navItem{
+    color: white;
+    margin-right: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-size: 15px;
+    width: max-content;
+}
+
+.navItem:hover{
+    color: rgb(161, 180, 180);
+}
